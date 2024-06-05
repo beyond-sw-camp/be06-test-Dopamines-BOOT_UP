@@ -55,7 +55,7 @@ public class MemberDao {
 
     }
 
-    public BaseResponse login (MemberLoginRequestDto dto){
+    public BaseResponse login(MemberLoginRequestDto dto) {
         //히카리풀 연동
         System.out.println(dataSourceConfig);
         Connection connection = null;
@@ -65,22 +65,22 @@ public class MemberDao {
         try {
             connection = dataSourceConfig.getConnection();
             stmt = connection.createStatement();
-            rs = stmt.executeQuery("SELECT * FROM boot_up.user WHERE email='"+dto.getEmail()+"'");
+            rs = stmt.executeQuery("SELECT * FROM boot_up.user WHERE email='"+dto.getEmail()+"' AND password='"+dto.getPassword()+"'");
 
             int count = 0;
             while(rs.next()){
                 count++;
             }
 
-            if(count>=1){
-                System.out.println("회원있음 Error");
-                BaseResponse response = new BaseResponse(BaseResponseMessage.MEMBER_REGISTER_FAIL_EMAIL_DUPLICATE);
+            if(count==1){
+                System.out.println("로그인 성공");
+                BaseResponse response = new BaseResponse(BaseResponseMessage.MEMBER_LOGIN_SUCCESS);
                 return response;
 //                jsonResponse = objectMapper.writeValueAsString(response);
             }
             else {
-                System.out.println("회원가입 성공!!(추후 DB 저장 필요) ");
-                BaseResponse response = new BaseResponse(BaseResponseMessage.MEMBER_REGISTER_SUCCESS);
+                System.out.println("로그인 실패");
+                BaseResponse response = new BaseResponse(BaseResponseMessage.MEMBER_LOGIN_FAIL);
                 return response;
             }
             // 결과를 json형식의 응답
