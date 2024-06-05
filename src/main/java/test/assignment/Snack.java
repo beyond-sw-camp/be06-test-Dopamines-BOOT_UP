@@ -1,3 +1,5 @@
+package test.assignment;
+
 public class Snack {
     String name;
     Integer price;
@@ -11,7 +13,7 @@ public class Snack {
 
     @Override
     public String toString() {
-        return "Snack{" +
+        return "test.assignment.Snack{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 ", flavor='" + flavor + '\'' +

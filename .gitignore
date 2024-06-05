@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### src  ###
+.idea
+.gradle
+gradlew.bat
+settings.gradle

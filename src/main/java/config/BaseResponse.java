@@ -4,6 +4,20 @@ public class BaseResponse<T> {
     private Boolean success;
     private Integer code;
     private String message;
+    private T generic;
+
+    public BaseResponse(BaseResponseMessage result) {
+        this.success = result.getSuccess();
+        this.code = result.getCode();
+        this.message = result.getMessage();
+    }
+
+    public BaseResponse(BaseResponseMessage result, T generic) {
+        this.success = result.getSuccess();
+        this.code = result.getCode();
+        this.message = result.getMessage();
+        this.generic = generic;
+    }
 
     public BaseResponse(Boolean success, Integer code, String message) {
         this.success = success;
@@ -34,4 +48,5 @@ public class BaseResponse<T> {
     public void setMessage(String message) {
         this.message = message;
     }
+
 }

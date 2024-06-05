@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75550045-2583-4e08-8aa8-759cc5b5a0f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/config/BaseResponse1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/memberDao/MemberDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/request/MemberEmailConfirmRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/request/MemberEmailFindRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/request/MemberInfoUpdateRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/request/MemberLoginRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/request/MemberPasswordUpdateRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/request/MemberSignupRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/response/MemberSignupResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/servlet/MemberEmailConfirmServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/servlet/MemberEmailFindServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/servlet/MemberInfoUpdateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/servlet/MemberLoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/servlet/MemberPasswordUpdateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/member/servlet/MemberSignupServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/test/MemberSignupRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/test/assignment/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/test/assignment/Snack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/test/assignment/TestServlet2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/test/assignment/TestServlet3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/board/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/board/dao/RecommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/BaseResponse1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/memberDao/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/request/MemberEmailConfirmRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/request/MemberEmailFindRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/request/MemberInfoUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/request/MemberLoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/request/MemberPasswordUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/request/MemberSignupRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/response/MemberSignupResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/servlet/MemberEmailConfirmServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/servlet/MemberEmailFindServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/servlet/MemberInfoUpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/servlet/MemberLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/servlet/MemberPasswordUpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/member/servlet/MemberSignupServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Snack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/test/assignment/TestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TestServlet2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TestServlet3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/board/response/PostsDtoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/board/response/PostsDtoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/config/BaseResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/config/BaseResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/config/BaseResponse3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/config/BaseResponse3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/config/BaseResponseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/config/BaseResponseMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/member/MemberServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/member/request/PostMemberReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/test/MemberServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/test/MemberServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/assignment/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Snack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/assignment/Snack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/assignment/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/assignment/TestServlet2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestServlet3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/assignment/TestServlet3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/response/CommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/board/response/CommentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/board/response/RecommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/board/response/RecommentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseResponse3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseResponse3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseResponseMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/member/MemberServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/MemberServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/member/request/PostMemberReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/MemberSignupRequestDto.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2hRxszIXxCpBnCxBA7Fdt36EXjH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "Merging feature/board",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75550045-2583-4e08-8aa8-759cc5b5a0f3" name="Changes" comment="" />
+      <created>1717570903949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717570903949</updated>
+      <workItem from="1717570905953" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
