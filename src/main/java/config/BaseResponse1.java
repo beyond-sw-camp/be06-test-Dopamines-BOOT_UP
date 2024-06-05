@@ -1,27 +1,15 @@
 package config;
 
-import java.util.List;
-import test.assignment.Human;
-
-public class BaseResponse3<T> {
+public class BaseResponse1<T> {
     private Boolean success;
     private Integer code;
     private String message;
-    private T result;
 
-    public BaseResponse3(T result) {
-        this.success = BaseResponseMessage.REQUEST_SUCCESS.getSuccess();
-        this.code = BaseResponseMessage.REQUEST_SUCCESS.getCode();
-        this.message = BaseResponseMessage.REQUEST_SUCCESS.getMessage();
-        this.result = result;
-    }
-    public BaseResponse3(Boolean success, Integer code, String message) {
+    public BaseResponse1(Boolean success, Integer code, String message) {
         this.success = success;
         this.code = code;
         this.message = message;
     }
-
-
 
     public Boolean getSuccess() {
         return success;
@@ -45,9 +33,5 @@ public class BaseResponse3<T> {
 
     public void setMessage(String message) {
         this.message = message;
-    }
-
-    public T getResult() {
-        return result;
     }
 }

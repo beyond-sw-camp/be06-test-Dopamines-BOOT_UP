@@ -1,6 +1,6 @@
-package member.request;
+package test;
 
-public class PostMemberReq {
+public class MemberSignupRequestDto {
     String id;
     String pw;
 
